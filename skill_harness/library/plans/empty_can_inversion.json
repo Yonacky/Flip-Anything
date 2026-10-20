@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "plan",
+  "id": "empty_can_inversion",
+  "version": 1,
+  "goal": "flip_object",
+  "specializes": "pick_invert_place",
+  "status": "candidate",
+  "description": "可侧向夹持的空薄壁罐倒立放置；第一项具体任务方案。",
+  "applicability": {
+    "object": [
+      "空容器",
+      "近似圆柱的可夹持罐身",
+      "薄壁形变需被考虑"
+    ],
+    "equipment": [
+      "本次夹爪和腕部相机安装允许该抓法"
+    ]
+  },
+  "goal_binding": {
+    "object_ref": "当前观测的空罐",
+    "initial_relation": "罐底支撑",
+    "target_relation": "罐口朝下、罐底朝上",
+    "terminal_conditions": [
+      "脱离夹爪",
+      "罐口端由桌面支撑",
+      "保持倒立站立"
+    ]
+  },
+  "strategy_notes": [
+    "抓前评价倒置后的相机、夹爪和落桌端净空；低位夹持是待评估的候选，不是固定规则",
+    "接近前确认张爪和有效指垫区域；不边推进边轻夹寻找圆柱",
+    "绿色只可能帮助本例感知，不是翻转策略的适用条件"
+  ],
+  "evidence_note": "源于空罐实验的候选总结；原始记录保留在logs/experiments/ds_control。方案成功不自动证明每项能力可靠，历史尺寸、偏置和轨迹未带入。"
+}

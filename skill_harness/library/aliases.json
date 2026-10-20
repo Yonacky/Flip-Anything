@@ -1,0 +1,4 @@
+{
+  "flip": "invert_held_object",
+  "verify": "verify_inverted_placement"
+}

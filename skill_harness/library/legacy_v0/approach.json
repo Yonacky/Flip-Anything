@@ -1,0 +1,20 @@
+{
+  "id": "approach",
+  "version": 1,
+  "description": "张爪后对准并进入抓取区",
+  "action": "move",
+  "requires": [
+    "scene_visible",
+    "geometry_usable",
+    "gripper_open",
+    "path_clear"
+  ],
+  "ensures": [
+    "aligned"
+  ],
+  "recovery": "reobserve",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false
+}

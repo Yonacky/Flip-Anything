@@ -1,0 +1,17 @@
+{
+  "id": "release",
+  "version": 1,
+  "description": "承接后固定机械臂张爪",
+  "action": "grip",
+  "requires": [
+    "supported"
+  ],
+  "ensures": [
+    "released"
+  ],
+  "recovery": "hold",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false
+}

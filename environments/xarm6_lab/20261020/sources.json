@@ -1,0 +1,176 @@
+[
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/tcp_calibration_result.json",
+    "source": "workspace/calibration/tcp_grip_20261020/tcp_calibration_result.json",
+    "sha256": "d1cba4099af8da20e942592dd6156a4a4476969dd93eadf33499748f8f84a832",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/draft_installation/installation.json",
+    "source": "workspace/calibration/live_20261019/autonomous_completion/draft_installation/installation.json",
+    "sha256": "1bf917322722347dffaa3ddb4edb209149bb8e6bf844a200169cd54ba0957519",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/draft_installation/profile.json",
+    "source": "workspace/calibration/live_20261019/autonomous_completion/draft_installation/profile.json",
+    "sha256": "04f1a69ab239847d9c57ae2367de36c4ee49201ebb634b1657f14fa227ef57f4",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/table_scene_verified.json",
+    "source": "workspace/calibration/live_20261019/autonomous_completion/table_scene_verified.json",
+    "sha256": "26ae34ebe818da709745ed4ad626da208f504a5205061c4772097f8bbc902946",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/grasp_center_model.json",
+    "source": "workspace/calibration/live_20261019/autonomous_completion/grasp_center_model.json",
+    "sha256": "10a966eedd4e8270533fecdabda9723e5c34af700b8e56c350ec8f42f0d898d8",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_grip_geometry.json",
+    "source": "workspace/calibration/tcp_grip_20261020/repeat_grip_geometry.json",
+    "sha256": "31846a60de90ff955726560e7194936542b06c8b5569435422c3ffe51c4ab0fd",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/clamped_axis_measurement.json",
+    "source": "workspace/calibration/tcp_grip_20261020/clamped_axis_measurement.json",
+    "sha256": "050bf5533067bc4c85976c24e5160129351598fea433ed91ebd41569860fb1f4",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_clamped_axis_measurement.json",
+    "source": "workspace/calibration/tcp_grip_20261020/repeat_clamped_axis_measurement.json",
+    "sha256": "d9ed4b46c8d68a33231316e7cfeb66f7f3986573b2e32b043a51fcfb23a30aa6",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/multiview_rotation_refined.json",
+    "source": "workspace/calibration/tcp_grip_20261020/multiview_rotation_refined.json",
+    "sha256": "876ed7020cdbc5eb44a9a16cc44575015f2963450618b0517388e07e93a7832e",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/old_board_rotation_crosscheck.json",
+    "source": "workspace/calibration/tcp_grip_20261020/old_board_rotation_crosscheck.json",
+    "sha256": "ef5e076e18abb6156efe5aa3ff84a4e829f7c1ef6dd9c7bdc92e6abc76392c26",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/stationary_views.json",
+    "source": "workspace/calibration/tcp_grip_20261020/stationary_views.json",
+    "sha256": "32bf4e0c77e713c5682ce77bfc033b76d1ade4a2b39659efecee58307e9b1b18",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/inserted_contact_hold_samples.json",
+    "source": "workspace/calibration/tcp_grip_20261020/inserted_contact_hold_samples.json",
+    "sha256": "74d546269673eef392ec98f0da2e18c46612fa94f07d0b1dc037ba3e0f674050",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_contact_hold_samples.json",
+    "source": "workspace/calibration/tcp_grip_20261020/repeat_contact_hold_samples.json",
+    "sha256": "79a569c69bce3ac912c1c76fe2962035a8d8aad0a57d3192424151787144dd8d",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_contact_stationary_observation.json",
+    "source": "workspace/calibration/tcp_grip_20261020/repeat_contact_stationary_observation.json",
+    "sha256": "7035371aee72bef5fcdf8b50366e15806d73742350097af8203696501e48ba81",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/support_human_confirmation.json",
+    "source": "workspace/calibration/tcp_grip_20261020/support_human_confirmation.json",
+    "sha256": "e67625ac2045f44a0e9adc7f8cf9d614c269b6f0670f32b2707c72147b2f68b5",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/resume_authorization.json",
+    "source": "workspace/calibration/tcp_grip_20261020/resume_authorization.json",
+    "sha256": "271c4abd32091a192453889fbfa6aec8df349d8f8a950f787f0b8d2d1bfcfaaf",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/resume_view_proposal.json",
+    "source": "workspace/calibration/tcp_grip_20261020/resume_view_proposal.json",
+    "sha256": "86b5f6c1271fb40540523220ecffde64feeb7de996d8b81b7c26d582a49d6beb",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/tcp_calibration_evidence_manifest.json",
+    "source": "workspace/calibration/tcp_grip_20261020/tcp_calibration_evidence_manifest.json",
+    "sha256": "3d26137cb76429ce0ab339576365f2003d9d8597ec665e8504b3272b908034e2",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/RESULT.md",
+    "source": "workspace/calibration/tcp_grip_20261020/RESULT.md",
+    "sha256": "5bd7dfa97337aa280fd61aa60b53b2e90c94081a17fbb3e830f370b6fd04553e",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/TCP_CALIBRATION.md",
+    "source": "workspace/calibration/tcp_grip_20261020/TCP_CALIBRATION.md",
+    "sha256": "5bd7dfa97337aa280fd61aa60b53b2e90c94081a17fbb3e830f370b6fd04553e",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/scene_module_materials_tcp_calibrated.json",
+    "source": "workspace/calibration/tcp_grip_20261020/scene_module_materials_tcp_calibrated.json",
+    "sha256": "a6c597b3a2ca78a8394f2405ef88e324da12351f86b013dce76d973817e59d99",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/calibration_final_observation.json",
+    "source": "workspace/calibration/tcp_grip_20261020/calibration_final_observation.json",
+    "sha256": "4be6d71eaf263c2d6f43b6f8fa79733424d70007ef31c8b9615264012c671552",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/session_shutdown.json",
+    "source": "workspace/calibration/tcp_grip_20261020/session_shutdown.json",
+    "sha256": "37b0eb4d3740c504d7497e64a58af90da12857f4888a4db545ded02513e2290d",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/raw_run_archive.json",
+    "source": "workspace/calibration/tcp_grip_20261020/raw_run_archive.json",
+    "sha256": "4a45b69c91b483609f140be2c9da915ca9ce3b9fa324ce2bf6250e9cc351af07",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/operator_side_photo_shallow_contact.jpg",
+    "source": "workspace/calibration/tcp_grip_20261020/operator_side_photo_shallow_contact.jpg",
+    "sha256": "65df6c89ee47558d7a292f2398cca3064ee549553bf21a642f0d8ef45925a890",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/frame_000076_color.png",
+    "source": "workspace/calibration/tcp_grip_20261020/frame_000076_color.png",
+    "sha256": "0458866ccc71e1179020b49feb39376a04f6c1463df574cb603caf0a67d78d56",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/frame_000099_color.png",
+    "source": "workspace/calibration/tcp_grip_20261020/frame_000099_color.png",
+    "sha256": "782ad0ced0d1c045534f0404ce93421c562ff8f9e275b4035a291b01a2573740",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/draft_installation/scene.json",
+    "source": "workspace/calibration/live_20261019/autonomous_completion/draft_installation/scene.json",
+    "sha256": "26ae34ebe818da709745ed4ad626da208f504a5205061c4772097f8bbc902946",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  },
+  {
+    "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/hand_eye_result.json",
+    "source": "workspace/calibration/live_20261019/autonomous_completion/hand_eye_result.json",
+    "sha256": "b591736c8dbe32b3a5d2141885a8a1ac1ce40868d4e8258b9b3b59d0915798a2",
+    "role": "immutable historical snapshot; embedded paths/state are original provenance"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "flip",
+  "version": 1,
+  "description": "保持抓取并分段翻转",
+  "action": "move",
+  "requires": [
+    "held_verified",
+    "path_clear",
+    "placement_observable"
+  ],
+  "ensures": [
+    "inverted_held"
+  ],
+  "recovery": "reobserve_held",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": true
+}

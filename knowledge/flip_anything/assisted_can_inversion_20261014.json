@@ -1,0 +1,28 @@
+{
+  "id": "assisted_can_inversion_20261014",
+  "project_id": "flip_anything",
+  "status": "historical_case",
+  "use": "planning_reference_only",
+  "outcome": "human_assisted_success_reported_in_archived_summary",
+  "autonomous_success": false,
+  "applicability": [
+    "rigid graspable container",
+    "current tool clearance and path separately checked",
+    "current object observed"
+  ],
+  "lesson": "Plan placement clearance before grasping. A lower grasp can resolve camera/table interference for some objects. Verify release, retreat and independent stability.",
+  "limitations": [
+    "historical summary reviewed; not newly replayed or promoted to released executable skill",
+    "human side-view photo assisted final placement",
+    "old hand-eye, 44 mm grasp offset, object coordinates and motion requests must not be reused"
+  ],
+  "failures_retained": [
+    "earlier camera collision and operator reset",
+    "degenerate hand-eye estimate",
+    "gripper full-close fault"
+  ],
+  "evidence": [
+    "knowledge/flip_anything/evidence/logs/experiments/legacy/ds_flip_20261014_07/summary.md",
+    "knowledge/flip_anything/evidence/previous_references/success-methods.md"
+  ]
+}

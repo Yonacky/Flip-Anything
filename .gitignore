@@ -1,0 +1,43 @@
+# Python environments and generated files
+.venv/
+.venv-pipeline/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.obsidian/
+.vscode/
+.idea/
+# Local recordings, maintenance backups, research downloads and generated output
+logs/
+workspace/
+.research/
+archive/
+output/
+releases/
+transfers/
+Log/
+**/Log/
+# Transient task/session state
+active*.json
+session_state.json
+session.lock
+**/session.lock
+ds_control/active.json
+ds_control/scene/current.json
+calibration/scene_current.json
+calibration/session_state.json
+configs/local.json
+calibration/local.json
+# Only evidence files explicitly listed by source-release.json are force-added.

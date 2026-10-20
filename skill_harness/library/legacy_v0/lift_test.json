@@ -1,0 +1,18 @@
+{
+  "id": "lift_test",
+  "version": 1,
+  "description": "测试离桌并检查抓取",
+  "action": "move",
+  "requires": [
+    "contact",
+    "path_clear"
+  ],
+  "ensures": [
+    "held_verified"
+  ],
+  "recovery": "recover_grasp",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": true
+}

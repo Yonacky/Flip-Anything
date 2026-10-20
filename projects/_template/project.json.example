@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "REPLACE_PROJECT_ID",
+  "goal": "REPLACE_GOAL",
+  "environment": "environments/REPLACE_ENVIRONMENT/REPLACE_VERSION/environment.json",
+  "read_next": [
+    "projects/REPLACE_PROJECT_ID/BRIEF.md"
+  ],
+  "experiences": [],
+  "workspace": "workspace/projects/REPLACE_PROJECT_ID",
+  "raw_logs": "logs/experiments"
+}

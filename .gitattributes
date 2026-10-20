@@ -1,0 +1,3 @@
+# SHA-256 manifests bind exact bytes, including archived measurement evidence.
+# Never rewrite line endings during add/checkout.
+* -text

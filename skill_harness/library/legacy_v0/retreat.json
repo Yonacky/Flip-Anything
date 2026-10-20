@@ -1,0 +1,18 @@
+{
+  "id": "retreat",
+  "version": 1,
+  "description": "释放后沿已检查方向退出",
+  "action": "move",
+  "requires": [
+    "released",
+    "path_clear"
+  ],
+  "ensures": [
+    "clear_of_object"
+  ],
+  "recovery": "hold",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false
+}

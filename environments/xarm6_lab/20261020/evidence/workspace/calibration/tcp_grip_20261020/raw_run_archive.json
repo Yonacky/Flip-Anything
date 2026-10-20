@@ -1,0 +1,9 @@
+{
+  "run_id": "DS_20261020T121159_324e6539",
+  "run_status": "completed",
+  "source": "G:\\Flip Anything DS\\logs\\experiments\\ds_control\\DS_20261020T121159_324e6539",
+  "destination": "G:\\Flip Anything\\logs\\experiments\\ds_control\\DS_20261020T121159_324e6539",
+  "file_count": 567,
+  "total_bytes": 311365866,
+  "copy_check": "all relative files and byte sizes equal; calibrated artifact manifest separately SHA256 verified"
+}

@@ -1,0 +1,55 @@
+{
+  "source": "operator ruler measurements and subsequent clarification in conversation",
+  "raw_reply": "191mm 153mm-191mm 129mm-132mm 整体最大就是35mm 夹爪全开状态下内外宽为84mm和100mm，全闭为0 90mm-26mm-32mm 120mm（这个是相机点和夹爪横轴垂线的交点位置） 79mm（但相机是有角度的，直角三角形三边为15mm-5mm-6mm你自己算下角度） 刚才量的都把支架算成相机的一部分了，分开也没有意义 另一方向连续5格差不多95mm",
+  "triangle_correction": "不是，是15-5-16",
+  "measurements_mm": {
+    "reported_gripper_total_length": 191,
+    "pad_axial_interval_from_mount": [
+      153,
+      191
+    ],
+    "silver_reference_axial_interval_from_mount": [
+      129,
+      132
+    ],
+    "whole_gripper_maximum_thickness": 35,
+    "full_open_inner_gap": 84,
+    "full_open_front_outer_width": 100,
+    "fully_closed_inner_gap": 0,
+    "camera_mount_combined_dimensions_reported": [
+      90,
+      26,
+      32
+    ],
+    "camera_projection_reference_reported": 120,
+    "camera_other_reference_reported": 79,
+    "triangle_legs": [
+      15,
+      5
+    ],
+    "triangle_approx_hypotenuse": 16,
+    "board_other_axis_five_squares_approx": 95
+  },
+  "prior_measurements_retained": {
+    "maximum_linkage_width_mm": 152,
+    "front_width_mm": 101,
+    "camera_lens_to_silver_reference_mm": 70,
+    "combined_camera_to_J6_span_including_cable_mm": 140,
+    "included_cable_allowance_mm": 10,
+    "board_ten_squares_mm": 192
+  },
+  "tilt_check": {
+    "angle_deg": 18.43494882292201,
+    "computed_hypotenuse_mm": 15.811388300841896,
+    "usage": "approximate mechanical inclination only; rotation axis and sign unspecified; hand-eye rotation retained"
+  },
+  "interpretation_limits": [
+    "120mm and79mm retained with original endpoint wording; not silently turned into camera front/rear coordinates.",
+    "191mm supplied once for total length; opening-specific length not measured separately.",
+    "Dimensions include support per operator; no forced separation without geometric evidence.",
+    "0mm is closed internal gap, not closed outer width.",
+    "Board95mm is approximate and its mapping to marker axes must be checked."
+  ],
+  "photo_unavailable": "operator working alone; no new photographs required",
+  "physical_presence": "operator left; no unattended motion authorized by this record"
+}

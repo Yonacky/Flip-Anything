@@ -1,0 +1,1 @@
+先读 DS_START.md，运行 context.ps1 context --project flip_anything。当前任务的标定已发布，创建 supervised_rigid_flip 任务后用 pipeline.ps1 reuse-calibration <task> 直接进入物体建模。复用现有标定，观察当前物体，不重做无关测量或补做标定资格测试。按 pipeline 与 robot 正式入口执行并检查任务结果。

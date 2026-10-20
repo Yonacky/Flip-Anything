@@ -1,0 +1,7 @@
+本轮执行标定实验，不执行物体翻转。先读 SKILL.md 的标定分支和 docs/CALIBRATION_EXPERIMENT.md，核对设备变化，优先继续同一安装尚未结束的 calibration 任务。
+
+工具回合使用 docs/DS_AGENT_FRAMEWORK.md：对已有 calibration 任务用 agent.ps1 begin 创建会话，先读 context，再逐次 step。默认离线；获批采集需要显式绑定已有实机 run，调用 authorize_acquisition 与 execute，动作前后 observe。unverified 不阻止专门标定准备和获批采集，采集完成仍不等于标定通过。
+
+自主完成环境测试、无冲突的设备只读连接、数据检查、采集准备、离线计算和材料整理。unverified 是本轮要解决的问题，不是直接结束的理由。需要物理测量或采集路径审核时，准备好具体材料后集中提出请求；不要自己签发教师审核，不另开 SDK 控制连接。获批后通过 authorize-acquisition 和正式执行器采集。
+
+按文档完成内参/深度验证、手眼、抓取中心与工具包络、桌面场景和独立复核。形成完整 draft，交维护者发布，再用一个不发实机动作的新任务验证标定可复用并进入 model。清楚区分已实测、已计算、待复核和未实现的接口；不测物体质量，不求自制 IK，不伪造 verified。结束提交 handoff.md 和可追溯原始材料。

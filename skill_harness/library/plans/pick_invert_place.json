@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "plan",
+  "id": "pick_invert_place",
+  "version": 1,
+  "goal": "flip_object",
+  "status": "candidate",
+  "description": "抓取、离桌倒置、承接后释放并退出的一种方案；不是翻转目标的唯一实现。",
+  "applicability": {
+    "object": [
+      "有可辨认的目标倒置方向",
+      "当前工具能够稳定抓持"
+    ],
+    "environment": [
+      "存在可达且可稳定放置的支撑区域"
+    ],
+    "equipment": [
+      "工具整体允许旋转和退出"
+    ]
+  },
+  "goal_binding": {
+    "object_ref": "由当前scene指定",
+    "initial_relation": "当前支撑与方向",
+    "target_relation": "指定端或面朝下的倒置关系",
+    "terminal_conditions": [
+      "脱离夹爪",
+      "由目标支撑区域承接",
+      "在任务观察期间保持目标状态"
+    ]
+  },
+  "capabilities": [
+    "observe",
+    "approach",
+    "grasp",
+    "lift_test",
+    "invert_held_object",
+    "place",
+    "release",
+    "retreat",
+    "verify_inverted_placement"
+  ],
+  "completion": {
+    "capability": "verify_inverted_placement",
+    "requires_completed": [
+      "release",
+      "retreat"
+    ]
+  },
+  "execution": "顺序是该方案的默认路径，不是自动调度程序；条件不足时恢复或重选方案。",
+  "evidence_note": "当前包装器未证明触桌检测能力；估算间隙释放的成功记录不能直接验证本方案的承接判据。"
+}

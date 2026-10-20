@@ -1,0 +1,16 @@
+name: Offline repository checks
+on:
+  push:
+  pull_request:
+jobs:
+  offline:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-pipeline-lock.txt
+      - run: python -m pip install -r requirements-pipeline-lock.txt
+      - run: python scripts/check_repository.py

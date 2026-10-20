@@ -1,0 +1,18 @@
+{
+  "id": "verify",
+  "version": 1,
+  "description": "确认独立倒立站稳",
+  "action": "observe",
+  "requires": [
+    "released",
+    "clear_of_object"
+  ],
+  "ensures": [
+    "inverted_stable"
+  ],
+  "recovery": "reobserve",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false
+}

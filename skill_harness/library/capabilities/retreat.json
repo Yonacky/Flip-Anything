@@ -1,0 +1,24 @@
+{
+  "id": "retreat",
+  "version": 1,
+  "description": "释放后沿已检查方向退出",
+  "action": "move",
+  "requires": [
+    "released",
+    "path_clear"
+  ],
+  "ensures": [
+    "clear_of_object"
+  ],
+  "recovery": "hold",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false,
+  "kind": "capability",
+  "schema_version": 1,
+  "scope": {
+    "implementation": "参数化单步包装器，未自动生成完整动作或感知判据",
+    "validation": "仅离线契约测试；具体适用性需现场证据"
+  }
+}

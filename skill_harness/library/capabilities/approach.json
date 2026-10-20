@@ -1,0 +1,26 @@
+{
+  "id": "approach",
+  "version": 1,
+  "description": "张爪后对准并进入抓取区",
+  "action": "move",
+  "requires": [
+    "scene_visible",
+    "geometry_usable",
+    "gripper_open",
+    "path_clear"
+  ],
+  "ensures": [
+    "aligned"
+  ],
+  "recovery": "reobserve",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false,
+  "kind": "capability",
+  "schema_version": 1,
+  "scope": {
+    "implementation": "参数化单步包装器，未自动生成完整动作或感知判据",
+    "validation": "仅离线契约测试；具体适用性需现场证据"
+  }
+}

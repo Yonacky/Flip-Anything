@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "device_profile",
+  "id": "unconfigured",
+  "version": 1,
+  "status": "unverified",
+  "hardware_identity": null,
+  "controller_config_reference": null,
+  "camera_to_tcp": null,
+  "grasp_center_to_tcp": null,
+  "validation_evidence": [],
+  "note": "仅存与设备安装有关的配置和验证来源；不存当前目标、桌面、抓点或历史轨迹。此模板不能当作有效标定。"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "kind": "goal",
+  "id": "flip_object",
+  "version": 1,
+  "description": "使指定物体达到任务要求的翻转后方向或支撑关系，并满足该任务的释放与稳定条件。",
+  "binding_fields": {
+    "object_ref": "本轮目标物体标识，不含历史位置",
+    "initial_relation": "可辨认的初始方向或支撑关系",
+    "target_relation": "所需目标方向或支撑关系",
+    "terminal_conditions": "任务规定的工具脱离、支撑和稳定等条件"
+  },
+  "acceptance": {
+    "orientation_or_support": "用物体特征和参考系判断目标关系，不以机械臂角度替代",
+    "terminal_state": "验证本任务声明的终态条件",
+    "autonomy": "单独记录人工介入，不改变物理目标含义"
+  },
+  "ambiguity": "对称物体或未指定的翻转方向须先形成可观察的任务目标；不默认所有物体都有倒立含义。"
+}

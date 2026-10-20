@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "supervised_rigid_flip",
+  "strategy": "geometry_guided_pick_invert_place",
+  "operator_supervised": true,
+  "property_requirements": [],
+  "goal": "object inverted, supported before release, stable after retreat",
+  "scope": "operator-selected empty rigid nonfragile containers within equipment handling limits",
+  "admission": "per-object or explicit batch operator declaration with current observation",
+  "material_status": "not_required",
+  "mass_status": "not_required",
+  "calibration": "verified installation required",
+  "path_backend": "teacher_review",
+  "automatic_recovery": false,
+  "note": "Task scope is not proof of material, mass or center of mass. This profile does not authorize arbitrary objects."
+}

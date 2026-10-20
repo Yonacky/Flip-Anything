@@ -1,0 +1,1 @@
+{"action": "move", "pose": [584.2946, -5.1876, 91.4177, -175.722374, 70.000431, -178.438824], "grip_required": false, "capture": true, "max_rotation_deg": 5.0, "max_translation_mm": 47.0, "max_joint_deg": 15.0, "speed": 10.0, "timeout_s": 50.0}

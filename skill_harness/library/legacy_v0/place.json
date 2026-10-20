@@ -1,0 +1,19 @@
+{
+  "id": "place",
+  "version": 1,
+  "description": "保持抓取下降到承接位置",
+  "action": "move",
+  "requires": [
+    "inverted_held",
+    "path_clear",
+    "placement_observable"
+  ],
+  "ensures": [
+    "supported"
+  ],
+  "recovery": "reobserve_held",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": true
+}

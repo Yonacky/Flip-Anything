@@ -1,0 +1,25 @@
+{
+  "id": "place",
+  "version": 1,
+  "description": "保持抓取下降到承接位置",
+  "action": "move",
+  "requires": [
+    "inverted_held",
+    "path_clear",
+    "placement_observable"
+  ],
+  "ensures": [
+    "supported"
+  ],
+  "recovery": "reobserve_held",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": true,
+  "kind": "capability",
+  "schema_version": 1,
+  "scope": {
+    "implementation": "参数化单步包装器，未自动生成完整动作或感知判据",
+    "validation": "仅离线契约测试；具体适用性需现场证据"
+  }
+}

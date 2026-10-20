@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "source_run": "G:\\Flip Anything\\logs\\experiments\\legacy\\RUN_20261013T130955Z_12d9d9e7",
+  "status": "estimated_validated",
+  "T_tcp_camera": [
+    [
+      0.04103187978128958,
+      0.9643361110140354,
+      0.2614808785283158,
+      -69.17428235915608
+    ],
+    [
+      -0.9990998569413287,
+      0.04241886689547869,
+      0.00033998694058667844,
+      16.59143920305719
+    ],
+    [
+      -0.010763860897923527,
+      -0.261259458633806,
+      0.9652085964043948,
+      -69.9388415595494
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_base_camera_reference": [
+    [
+      -0.09006152368071768,
+      -0.475348166503934,
+      0.8751760066144731,
+      419.4875805844911
+    ],
+    [
+      -0.9955569175047608,
+      0.06721853453893391,
+      -0.06594006841713673,
+      -7.944645954417307
+    ],
+    [
+      -0.027483558007031055,
+      -0.8772261904524888,
+      -0.47928995902635874,
+      202.78440798290256
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "feature_fits": [
+    {
+      "label": "reference",
+      "inliers": 5377,
+      "reprojection_px": 0,
+      "depth_residual_mm": 0
+    },
+    {
+      "label": "yaw_plus",
+      "inliers": 272,
+      "reprojection_px": 0.808638025773079,
+      "depth_residual_mm": 24.6350633682188
+    },
+    {
+      "label": "pitch_plus",
+      "inliers": 92,
+      "reprojection_px": 0.7350040699742642,
+      "depth_residual_mm": 14.876467259115273
+    },
+    {
+      "label": "roll_plus",
+      "inliers": 125,
+      "reprojection_px": 0.7913469210980342,
+      "depth_residual_mm": 30.115290483821692
+    },
+    {
+      "label": "heldout",
+      "inliers": 122,
+      "reprojection_px": 0.6893402763033151,
+      "depth_residual_mm": 21.957693987249804
+    }
+  ],
+  "hand_eye_consistency": [
+    {
+      "label": "reference",
+      "translation_mm": 1.4210854715202004e-14,
+      "angle_deg": 0.0
+    },
+    {
+      "label": "yaw_plus",
+      "translation_mm": 1.6605444903582416,
+      "angle_deg": 0.19839608180212864
+    },
+    {
+      "label": "pitch_plus",
+      "translation_mm": 7.600647553543528,
+      "angle_deg": 0.20644808220527602
+    },
+    {
+      "label": "roll_plus",
+      "translation_mm": 6.7317006233163115,
+      "angle_deg": 0.27682093170230215
+    },
+    {
+      "label": "heldout",
+      "translation_mm": 5.262516558164053,
+      "angle_deg": 0.2958262876865954
+    }
+  ],
+  "table_plane_base": {
+    "normal": [
+      -0.018122066712726707,
+      -0.004965585530407068,
+      0.9998234512444688
+    ],
+    "d_mm": 22.0369399623533,
+    "median_residual_mm": 0.3437301707349434,
+    "support_points": 10077
+  },
+  "can": {
+    "bottom_center_base_mm": [
+      596.9569563377808,
+      -19.720269529032684,
+      -11.318767174262007
+    ],
+    "axis_base": [
+      -0.018122066712726707,
+      -0.004965585530407068,
+      0.9998234512444688
+    ],
+    "height_estimate_mm": 150.34864491091906,
+    "height_allowance_mm": 10,
+    "diameter_estimate_mm": 53.80281535981867,
+    "circle_residual_mm": 0.43457052920347294,
+    "support_points": 10120,
+    "source": "local RGB-D green-cylinder fit"
+  },
+  "limitations": [
+    "Unknown hardware timestamps: captured only at stationary poses",
+    "Mount collision mesh still conservative; excludes cable per user request",
+    "Green-mask height includes estimated silver-rim allowance; not exact metrology"
+  ]
+}

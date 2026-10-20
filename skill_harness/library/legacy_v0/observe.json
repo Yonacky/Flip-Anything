@@ -1,0 +1,15 @@
+{
+  "id": "observe",
+  "version": 1,
+  "description": "取得现场观察",
+  "action": "observe",
+  "requires": [],
+  "ensures": [
+    "scene_visible"
+  ],
+  "recovery": "reobserve",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "robot": {
+    "model": "xArm6",
+    "ip": "192.168.1.209",
+    "read_gripper": false,
+    "gripper_connection": "unconfirmed"
+  },
+  "camera": {
+    "model": "Gemini 336",
+    "serial": "CP9E1630019L",
+    "timeout_ms": 1500,
+    "align_depth_to_color": true,
+    "log_dir": "../logs/sdk/root"
+  },
+  "recording": {
+    "root": "../logs/experiments/legacy",
+    "max_rgbd_skew_ms": 40
+  },
+  "calibration": {
+    "file": "../calibration/local.json"
+  }
+}

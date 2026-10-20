@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "authorized_path_reviewers": [
+    "Codex",
+    "Astra",
+    "human"
+  ],
+  "student_role": "prepare_evidence_and_execute",
+  "maintainer_role": "review_publish_revoke",
+  "automatic_recovery": false,
+  "full_robot_path_backend": "teacher_review",
+  "astra_transport": "not_configured",
+  "mass_identification": "simple_static_measurements",
+  "hidden_reasoning_capture": false,
+  "default_experiment_profile": "supervised_rigid_flip",
+  "authorized_scope_reviewers": [
+    "human",
+    "Codex",
+    "Astra"
+  ],
+  "property_policy": "strategy_requirements"
+}

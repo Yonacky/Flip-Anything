@@ -1,0 +1,25 @@
+{
+  "id": "invert_held_object",
+  "version": 1,
+  "description": "保持抓取使物体倒置；这是持物操作能力，不是完整翻转目标",
+  "action": "move",
+  "requires": [
+    "held_verified",
+    "path_clear",
+    "placement_observable"
+  ],
+  "ensures": [
+    "inverted_held"
+  ],
+  "recovery": "reobserve_held",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": true,
+  "kind": "capability",
+  "schema_version": 1,
+  "scope": {
+    "implementation": "参数化单步包装器，未自动生成完整动作或感知判据",
+    "validation": "仅离线契约测试；具体适用性需现场证据"
+  }
+}

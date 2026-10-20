@@ -1,0 +1,24 @@
+{
+  "id": "verify_inverted_placement",
+  "version": 1,
+  "description": "观察并判断物体是否已脱离工具且倒立站稳",
+  "action": "observe",
+  "requires": [
+    "released",
+    "clear_of_object"
+  ],
+  "ensures": [
+    "inverted_stable"
+  ],
+  "recovery": "reobserve",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false,
+  "kind": "capability",
+  "schema_version": 1,
+  "scope": {
+    "implementation": "参数化单步包装器，未自动生成完整动作或感知判据",
+    "validation": "仅离线契约测试；具体适用性需现场证据"
+  }
+}

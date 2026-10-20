@@ -1,0 +1,30 @@
+{
+  "id": "repeated_stationary_contact_20261020",
+  "project_id": "flip_anything",
+  "status": "measured_case",
+  "use": "planning_reference_only",
+  "outcome": "two_stationary_contacts_validated",
+  "autonomous_success": false,
+  "applicability": [
+    "current xarm6_lab installation matches",
+    "upright rigid can",
+    "opening/insertion individually checked for new objects"
+  ],
+  "lesson": "Use sufficient finger-pad overlap and palm clearance. Verify sustained contact and stable images. A single gOBJ=2 sample does not establish a stable grasp.",
+  "limitations": [
+    "no lift or held-object rotation performed",
+    "contact validation does not prove load holding",
+    "5 mm is engineering margin, not certified absolute accuracy"
+  ],
+  "failures_retained": [
+    "shallow fingertip contact pushed the can",
+    "incorrect silhouette fit rejected",
+    "50 mm lateral request rejected before motion; new task and operator resumption recorded"
+  ],
+  "evidence": [
+    "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/tcp_calibration_result.json",
+    "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/inserted_contact_hold_samples.json",
+    "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_contact_hold_samples.json",
+    "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/RESULT.md"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "unverified",
+  "translation_unit": "mm",
+  "T_tcp_camera": null,
+  "tcp_definition": null,
+  "camera_serial": null,
+  "verified_at": null,
+  "notes": "T_tcp_camera 将彩色光学坐标系的点映射到当前机器人 TCP 坐标系。不得填写虚构单位阵。"
+}

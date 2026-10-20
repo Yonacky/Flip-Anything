@@ -1,0 +1,66 @@
+{
+  "state": {
+    "sample_start_monotonic_ns": 252351000000000,
+    "state": 4,
+    "error_warn": [
+      0,
+      0
+    ],
+    "pose": [
+      404.909393,
+      -218.228912,
+      144.494019,
+      178.380841,
+      68.428636,
+      149.908219
+    ],
+    "joint_deg": [
+      -27.722792,
+      -13.820544,
+      -19.980299,
+      -179.039513,
+      34.533599,
+      0.20701
+    ],
+    "cmd_num": 0,
+    "gripper": {
+      "gOBJ": 3,
+      "gSTA": 3,
+      "gGTO": 1,
+      "gACT": 1,
+      "kFLT": 0,
+      "gFLT": 0,
+      "gPR": 0,
+      "gPO": 3,
+      "gCU": 0
+    },
+    "gripper_error": null,
+    "sample_end_monotonic_ns": 252351015000000,
+    "host_time": "2026-10-19T19:22:11"
+  },
+  "camera": {
+    "color_file": "frame_000058_color.png",
+    "depth_file": "frame_000058_depth_raw.npy",
+    "depth_scale_mm": 1.0,
+    "invalid_depth_raw": 0,
+    "color_shape_hw": [
+      720,
+      1280
+    ],
+    "depth_shape_hw": [
+      720,
+      1280
+    ],
+    "color_format": "OBFormat.MJPG",
+    "aligned_to_color": true,
+    "color_device_us": 0,
+    "depth_device_us": 0,
+    "color_system_us": 1792408930747330,
+    "depth_system_us": 1792408931212903,
+    "rgbd_skew_ms": null,
+    "timestamp_valid": false,
+    "wait_start_monotonic_ns": 252351218000000,
+    "received_monotonic_ns": 252351218000000
+  },
+  "ok": true
+}

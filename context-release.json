@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "release_id": "ds-context-20261020-03",
+  "purpose": "project data and read-only loader; not device calibration release",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "9bae65862e4ce6385be37d7cb77944d408fac149fd2fb492f1695251ee14802d"
+    },
+    {
+      "path": "DS_START.md",
+      "sha256": "cd1cd558dd55019e8589270034faab124d14a63053ea707b5ad8c0feaa95fc6e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dfad307303342db893b3a33ad6f9239d57a2883ad4c963167e7f0c2af1560528"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "d755d1f004154827e6ec266ed73b2e5c0928a9742c34214d0376fc021a078ade"
+    },
+    {
+      "path": "START_PROMPT.txt",
+      "sha256": "9d87a73280c0ee9a15c1db728da575c1420759f525bc2d196efa1ed22f9fd1a4"
+    },
+    {
+      "path": "context.ps1",
+      "sha256": "1c9ad43a56a935226ccba625149d26095b8332be639690a4d5b3bc78d46753db"
+    },
+    {
+      "path": "docs/PROJECT_LAYOUT.md",
+      "sha256": "0517838adfdfe696a69ab8fde5e6a27f7900841856eac1a91cba5715e8710630"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020-task-ready/README.md",
+      "sha256": "c6b5393720899753f2e2977a20b6be43574ad8370e3fcea951f4e8093de458fd"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020-task-ready/environment.json",
+      "sha256": "34c96fe5f8ee4e9c13146cd20a96a8e450fd34e0d593d3ba0ca926ac351afaa8"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020-task-ready/installation.json",
+      "sha256": "3d5e3369abf7121ed88f5fd703a87ab43151d108a540388865af0d858e4f1a12"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020-task-ready/operator_acceptance.json",
+      "sha256": "b1ff12671b51ef956ea82cc47ee7766dccf396b5201baa30cf45ed025593b284"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020-task-ready/profile.json",
+      "sha256": "60c05630e00f723f8d658ef023013c2a64713fedc272f1699dffbacb985c6575"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020-task-ready/report.json",
+      "sha256": "005d87436195b97a4d8c0988de2baeaf9e9bf0afaecd4431f9d3742d90d6ed74"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/README.md",
+      "sha256": "74d10e33633fae9cbd67ffcd80e78ae673670857f0b516d11691c8ae50ec6934"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/environment.json",
+      "sha256": "2333b752bd1a38e13bda0685ea228f62b078916551118cbe9c039ca252b5bbf9"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/draft_installation/installation.json",
+      "sha256": "1bf917322722347dffaa3ddb4edb209149bb8e6bf844a200169cd54ba0957519"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/draft_installation/profile.json",
+      "sha256": "04f1a69ab239847d9c57ae2367de36c4ee49201ebb634b1657f14fa227ef57f4"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/draft_installation/scene.json",
+      "sha256": "26ae34ebe818da709745ed4ad626da208f504a5205061c4772097f8bbc902946"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/grasp_center_model.json",
+      "sha256": "10a966eedd4e8270533fecdabda9723e5c34af700b8e56c350ec8f42f0d898d8"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/hand_eye_result.json",
+      "sha256": "b591736c8dbe32b3a5d2141885a8a1ac1ce40868d4e8258b9b3b59d0915798a2"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/live_20261019/autonomous_completion/table_scene_verified.json",
+      "sha256": "26ae34ebe818da709745ed4ad626da208f504a5205061c4772097f8bbc902946"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/RESULT.md",
+      "sha256": "5bd7dfa97337aa280fd61aa60b53b2e90c94081a17fbb3e830f370b6fd04553e"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/TCP_CALIBRATION.md",
+      "sha256": "5bd7dfa97337aa280fd61aa60b53b2e90c94081a17fbb3e830f370b6fd04553e"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/calibration_final_observation.json",
+      "sha256": "4be6d71eaf263c2d6f43b6f8fa79733424d70007ef31c8b9615264012c671552"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/clamped_axis_measurement.json",
+      "sha256": "050bf5533067bc4c85976c24e5160129351598fea433ed91ebd41569860fb1f4"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/frame_000076_color.png",
+      "sha256": "0458866ccc71e1179020b49feb39376a04f6c1463df574cb603caf0a67d78d56"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/frame_000099_color.png",
+      "sha256": "782ad0ced0d1c045534f0404ce93421c562ff8f9e275b4035a291b01a2573740"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/inserted_contact_hold_samples.json",
+      "sha256": "74d546269673eef392ec98f0da2e18c46612fa94f07d0b1dc037ba3e0f674050"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/multiview_rotation_refined.json",
+      "sha256": "876ed7020cdbc5eb44a9a16cc44575015f2963450618b0517388e07e93a7832e"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/old_board_rotation_crosscheck.json",
+      "sha256": "ef5e076e18abb6156efe5aa3ff84a4e829f7c1ef6dd9c7bdc92e6abc76392c26"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/operator_side_photo_shallow_contact.jpg",
+      "sha256": "65df6c89ee47558d7a292f2398cca3064ee549553bf21a642f0d8ef45925a890"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/raw_run_archive.json",
+      "sha256": "4a45b69c91b483609f140be2c9da915ca9ce3b9fa324ce2bf6250e9cc351af07"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_clamped_axis_measurement.json",
+      "sha256": "d9ed4b46c8d68a33231316e7cfeb66f7f3986573b2e32b043a51fcfb23a30aa6"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_contact_hold_samples.json",
+      "sha256": "79a569c69bce3ac912c1c76fe2962035a8d8aad0a57d3192424151787144dd8d"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_contact_stationary_observation.json",
+      "sha256": "7035371aee72bef5fcdf8b50366e15806d73742350097af8203696501e48ba81"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/repeat_grip_geometry.json",
+      "sha256": "31846a60de90ff955726560e7194936542b06c8b5569435422c3ffe51c4ab0fd"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/resume_authorization.json",
+      "sha256": "271c4abd32091a192453889fbfa6aec8df349d8f8a950f787f0b8d2d1bfcfaaf"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/resume_view_proposal.json",
+      "sha256": "86b5f6c1271fb40540523220ecffde64feeb7de996d8b81b7c26d582a49d6beb"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/scene_module_materials_tcp_calibrated.json",
+      "sha256": "a6c597b3a2ca78a8394f2405ef88e324da12351f86b013dce76d973817e59d99"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/session_shutdown.json",
+      "sha256": "37b0eb4d3740c504d7497e64a58af90da12857f4888a4db545ded02513e2290d"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/stationary_views.json",
+      "sha256": "32bf4e0c77e713c5682ce77bfc033b76d1ade4a2b39659efecee58307e9b1b18"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/support_human_confirmation.json",
+      "sha256": "e67625ac2045f44a0e9adc7f8cf9d614c269b6f0670f32b2707c72147b2f68b5"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/tcp_calibration_evidence_manifest.json",
+      "sha256": "3d26137cb76429ce0ab339576365f2003d9d8597ec665e8504b3272b908034e2"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/evidence/workspace/calibration/tcp_grip_20261020/tcp_calibration_result.json",
+      "sha256": "d1cba4099af8da20e942592dd6156a4a4476969dd93eadf33499748f8f84a832"
+    },
+    {
+      "path": "environments/xarm6_lab/20261020/sources.json",
+      "sha256": "f9da9c20d81a6fa170667d637b429e3ac6cb90c4049bea6ea17cdb604a610ad9"
+    },
+    {
+      "path": "knowledge/flip_anything/README.md",
+      "sha256": "556b94ccbef9a0598036b41b43ad96b678c0e7dacb3b5dface2ac2e9d78520d4"
+    },
+    {
+      "path": "knowledge/flip_anything/assisted_can_inversion_20261014.json",
+      "sha256": "23c614ca713a90e436659ccdd3e88f5985e23da6d899629c588080d08d18e48f"
+    },
+    {
+      "path": "knowledge/flip_anything/evidence/logs/experiments/legacy/ds_flip_20261014_07/summary.md",
+      "sha256": "0d548c006018b6fb3f82acc464b53313c3abd7c14b6b30177f396664c0aa2a0d"
+    },
+    {
+      "path": "knowledge/flip_anything/evidence/previous_references/provenance.json",
+      "sha256": "9f2ea75b82bd793c0782362a3be06fe358e6859b775862189b36e34dd2ae1568"
+    },
+    {
+      "path": "knowledge/flip_anything/evidence/previous_references/source/ds_can_circle.py.txt",
+      "sha256": "0df7477f0dd44214f546fa77f3516e9a6ebd398e8591aca766d64d00a85d37a9"
+    },
+    {
+      "path": "knowledge/flip_anything/evidence/previous_references/source/ds_flip.py.txt",
+      "sha256": "bffd30976460865d72f6c795cc6f5dd334c7db62c0b1cf98d5e2fdafbfdef278"
+    },
+    {
+      "path": "knowledge/flip_anything/evidence/previous_references/source/ds_solve_mount.py.txt",
+      "sha256": "6b873d9dee6dd420787f78dfcc17b0d4d440359617698cee91ef9b477bbd2e1b"
+    },
+    {
+      "path": "knowledge/flip_anything/evidence/previous_references/success-methods.md",
+      "sha256": "f365253dc68146cf53c9b474fa21f02c386388e82526b6ccb2c13bb742487c86"
+    },
+    {
+      "path": "knowledge/flip_anything/repeated_stationary_contact_20261020.json",
+      "sha256": "9cc0ff8ed018fd40158450bcbb2ce50962ccb55af4481de5ff41d87f5962af55"
+    },
+    {
+      "path": "pipeline_tests/test_ds_context.py",
+      "sha256": "fb39b063c91cf98725761ae1837a8ff9c4ab68a459d0b60dee5c318929ee4cb0"
+    },
+    {
+      "path": "projects/README.md",
+      "sha256": "0517838adfdfe696a69ab8fde5e6a27f7900841856eac1a91cba5715e8710630"
+    },
+    {
+      "path": "projects/_template/BRIEF.md",
+      "sha256": "259742173cc49b9405d49c6aaa2f9fc029388a385b3f169a0cfd6d044c46269e"
+    },
+    {
+      "path": "projects/_template/project.json.example",
+      "sha256": "43e73401286ace82e7cbea004251fa5c8dd118e0e2c6ff51a185c4d6c957f2c7"
+    },
+    {
+      "path": "projects/flip_anything/BRIEF.md",
+      "sha256": "1d33ebdd32c81f26053a7df710e66ce16225f5fa181240c86f3a26ae96a46157"
+    },
+    {
+      "path": "projects/flip_anything/project.json",
+      "sha256": "0414fd321fa9cef9c4886f42a1d0b191b66728cd17e1568275f83b430d60e81f"
+    },
+    {
+      "path": "scripts/ds_context.py",
+      "sha256": "059a03147cf8c0f36cfdefe0f653b108832606de05e2698b3fc3254db2556eb4"
+    },
+    {
+      "path": "scripts/publish_context.py",
+      "sha256": "e32a2f0f94e0ebad890359cc7141f25cf14143efaf2eaee73f7d84c831988418"
+    }
+  ]
+}

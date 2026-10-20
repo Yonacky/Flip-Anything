@@ -1,0 +1,20 @@
+[
+  {
+    "source": "G:\\Flip Anything\\ds_control\\scripts\\ds_solve_mount.py",
+    "copy": "references/source/ds_solve_mount.py.txt",
+    "sha256": "6b873d9dee6dd420787f78dfcc17b0d4d440359617698cee91ef9b477bbd2e1b",
+    "role": "historical implementation reference; not runnable default"
+  },
+  {
+    "source": "G:\\Flip Anything\\ds_control\\scripts\\ds_can_circle.py",
+    "copy": "references/source/ds_can_circle.py.txt",
+    "sha256": "0df7477f0dd44214f546fa77f3516e9a6ebd398e8591aca766d64d00a85d37a9",
+    "role": "historical implementation reference; not runnable default"
+  },
+  {
+    "source": "G:\\Flip Anything\\ds_control\\scripts\\ds_flip.py",
+    "copy": "references/source/ds_flip.py.txt",
+    "sha256": "bffd30976460865d72f6c795cc6f5dd334c7db62c0b1cf98d5e2fdafbfdef278",
+    "role": "historical implementation reference; not runnable default"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "grasp",
+  "version": 1,
+  "description": "对准后闭合夹爪",
+  "action": "grip",
+  "requires": [
+    "aligned",
+    "path_clear"
+  ],
+  "ensures": [
+    "contact"
+  ],
+  "recovery": "reobserve",
+  "status": "candidate",
+  "implementation": "existing_control_adapter",
+  "validation": "offline_only",
+  "hold_required": false
+}

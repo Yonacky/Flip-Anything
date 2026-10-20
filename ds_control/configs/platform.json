@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "robot": {
+    "model": "xArm6",
+    "ip": "192.168.1.209",
+    "read_gripper": true,
+    "gripper_connection": "xarm_rs485"
+  },
+  "camera": {
+    "model": "Gemini 336",
+    "serial": "CP9E1630019L",
+    "timeout_ms": 1500,
+    "align_depth_to_color": true,
+    "log_dir": "../../logs/sdk/ds_control"
+  },
+  "recording": {
+    "root": "../../logs/experiments/ds_control",
+    "max_rgbd_skew_ms": 40
+  },
+  "calibration": {
+    "file": "../scene/current.json"
+  }
+}
